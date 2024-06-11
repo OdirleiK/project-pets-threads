@@ -1,4 +1,4 @@
-package br.com.alura.adopetstore.exception;
+package br.com.alura.adopetstore.model.exception;
 
 public class ValidacaoException extends RuntimeException {
     public ValidacaoException(String message) {

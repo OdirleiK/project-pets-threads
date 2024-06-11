@@ -2,7 +2,7 @@ package br.com.alura.adopetstore.service;
 
 import br.com.alura.adopetstore.dto.CadastroProdutoDTO;
 import br.com.alura.adopetstore.dto.ProdutoDTO;
-import br.com.alura.adopetstore.exception.ValidacaoException;
+import br.com.alura.adopetstore.model.exception.ValidacaoException;
 import br.com.alura.adopetstore.model.Estoque;
 import br.com.alura.adopetstore.model.Produto;
 import br.com.alura.adopetstore.repository.EstoqueRepository;
@@ -11,8 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class ProdutoService {

@@ -2,7 +2,7 @@ package br.com.alura.adopetstore.service;
 
 import br.com.alura.adopetstore.dto.CadastroPedidoDTO;
 import br.com.alura.adopetstore.dto.PedidoDTO;
-import br.com.alura.adopetstore.exception.ValidacaoException;
+import br.com.alura.adopetstore.model.exception.ValidacaoException;
 import br.com.alura.adopetstore.model.ItemPedido;
 import br.com.alura.adopetstore.model.Pedido;
 import br.com.alura.adopetstore.model.Usuario;

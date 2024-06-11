@@ -2,7 +2,7 @@ package br.com.alura.adopetstore.service;
 
 import br.com.alura.adopetstore.dto.AtualizaEstoqueDTO;
 import br.com.alura.adopetstore.dto.EstoqueDTO;
-import br.com.alura.adopetstore.exception.ValidacaoException;
+import br.com.alura.adopetstore.model.exception.ValidacaoException;
 import br.com.alura.adopetstore.repository.EstoqueRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
